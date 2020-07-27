@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: darkslategray;
+  font-size: 3em;
+  font-style: italic;
+}
+
+.image-container {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 15px;
+  justify-items: center;
+  align-items: center;
+  margin: 50px;
+}
+
+img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+img:hover {
+  width: 400px;
+  border: solid 5px rgb(143, 190, 192);
+}
