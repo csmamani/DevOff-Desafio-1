@@ -1,8 +1,8 @@
 body {
   width: 100%;
+  background-color: azure;
   display: flex;
   flex-direction: column;
-  background-color: azure;
   justify-content: center;
   align-items: center;
 }
@@ -18,19 +18,20 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  column-gap: 15px;
-  row-gap: 15px;
+  column-gap: 10px;
+  row-gap: 10px;
   justify-items: center;
   align-items: center;
-  margin: 50px;
+  margin: auto;
 }
 
 img {
   width: 250px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
-img:hover {
-  width: 400px;
+img:active {
+  width: 450px;
   border: solid 5px rgb(143, 190, 192);
+  position: relative;
 }
